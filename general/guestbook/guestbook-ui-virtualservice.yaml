@@ -1,8 +1,8 @@
 apiVersion: networking.istio.io/v1alpha3
 kind: VirtualService
 metadata:
-  name: guestbook-ui
-  namespace: argocd
+  name: gustbook-ui
+  namespace: gustbook
 spec:
   hosts:
   - "kubedemo.kkzonie.com"
@@ -17,5 +17,3 @@ spec:
         host: guestbook-ui
         port:
           number: 80
-  selector:
-  app: guestbook-ui
