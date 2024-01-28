@@ -17,3 +17,5 @@ spec:
         host: guestbook-ui
         port:
           number: 80
+  selector:
+  app: guestbook-ui
